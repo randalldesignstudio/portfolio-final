@@ -7,11 +7,15 @@ body {
     padding: 20px;
   }
   /* Heading Styles */
-h1 {
+  h1 {
     font-size: 3rem;
     text-align: center;
-    color: #ff7f50;  /* Coral color for a bit of contrast */
+    background: linear-gradient(90deg, #8e2de2, #4a00e0); /* purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
+  
+  
   /* Paragraph Styles */
 p {
     font-size: 1.5rem;
