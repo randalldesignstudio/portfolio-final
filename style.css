@@ -13,7 +13,12 @@ body {
     background: linear-gradient(90deg, #8e2de2, #4a00e0); /* purple gradient */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+    text-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.4),  /* Dark shadow for depth */
+        0px 0px 25px rgba(128, 0, 255, 1),  /* Purple glow effect */
+        0px 0px 5px rgba(128, 0, 255, 0.6); /* Lighter purple glow */
+}
+
   
   
   /* Paragraph Styles */
