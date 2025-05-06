@@ -1,0 +1,36 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+  }
+  /* Heading Styles */
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #ff7f50;  /* Coral color for a bit of contrast */
+  }
+  /* Paragraph Styles */
+p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  /* Gallery Styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 20px;
+  }
+  /* Gallery Media Styles */
+.gallery img,
+.gallery video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
